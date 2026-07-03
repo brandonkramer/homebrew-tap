@@ -1,8 +1,8 @@
 class Trelly < Formula
   desc "Fast Trello CLI with multi-profile auth, MCP server, and kanban TUI"
   homepage "https://github.com/brandonkramer/trelly"
-  url "https://registry.npmjs.org/trelly/-/trelly-0.2.1.tgz"
-  sha256 "de0fdd470fbbeeea85328e5ac30c0de939313a9af1255c059e97d26d4a9270c5"
+  url "https://registry.npmjs.org/trelly/-/trelly-0.3.0.tgz"
+  sha256 "d0a457f7770420a1bf60ad40fb34ce2e57db79745dd6934209006c97f27121ed"
   license "MIT"
 
   livecheck do
