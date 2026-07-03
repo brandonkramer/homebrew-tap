@@ -5,6 +5,13 @@ class Trelly < Formula
   sha256 "c847f0a9cf54bf5f64d2e57993d3c090a4a459950cb28a07258dcab010f25f87"
   license "MIT"
 
+  livecheck do
+    url "https://registry.npmjs.org/trelly/latest"
+    strategy :json do |json|
+      json["version"]
+    end
+  end
+
   depends_on "node"
 
   def install
