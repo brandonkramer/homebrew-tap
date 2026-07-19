@@ -1,27 +1,27 @@
 class Netcup < Formula
   desc "CLI and ops TUI for the netcup SCP REST API"
   homepage "https://github.com/brandonkramer/netcup-cli"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.0/netcup_0.2.0_darwin_arm64.tar.gz"
-      sha256 "77c845ac98e815ccbad32c53bd74a37e3254fda761ac80b2e86e0569d6f4c528"
+      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.1/netcup_0.2.1_darwin_arm64.tar.gz"
+      sha256 "df7d5809cd6633aeae30936244a24a7dbcca2ee3599c0b683ad70c487ee3c24e"
     end
     on_intel do
-      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.0/netcup_0.2.0_darwin_amd64.tar.gz"
-      sha256 "1bcb04ad4b79d833e9c1b2a1c813d7fc63b97f9623c8ad95029f1bcb575b2618"
+      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.1/netcup_0.2.1_darwin_amd64.tar.gz"
+      sha256 "ec8185224538a3564e5f30e6bab17267ecc934c8d165b04855be4e284b04d813"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.0/netcup_0.2.0_linux_arm64.tar.gz"
-      sha256 "ff69aace0c3d9ec83781cffe19b28e444f2ee6f87239c63a864bd1b72c800ec2"
+      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.1/netcup_0.2.1_linux_arm64.tar.gz"
+      sha256 "538826ac7417e9e664c536c76266cea2b56b35101f9e5031c1f5b949000c5777"
     end
     on_intel do
-      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.0/netcup_0.2.0_linux_amd64.tar.gz"
-      sha256 "7630f357e684fb15b0f011b248c2b651fb15cb1562ad0084eccf0154d3c8722f"
+      url "https://github.com/brandonkramer/netcup-cli/releases/download/v0.2.1/netcup_0.2.1_linux_amd64.tar.gz"
+      sha256 "a0f029d534c2b42eb337aba98dcbdfaec70b663c9866680bfb16ac8d28281d95"
     end
   end
 
